@@ -37,6 +37,9 @@ function copyToClipboard(element) {
     h1 {
       font-family: omori
     }
+    h2 {
+      font-size: 36 px
+    }
     h4 {
       font-size: 24px;
     }
@@ -46,6 +49,7 @@ function copyToClipboard(element) {
       top: 0px;
       margin: 0px;
       padding: 10px;
+      height: 12%
     }
     body {
       text-align:left;
@@ -64,15 +68,30 @@ function copyToClipboard(element) {
       border: 3px solid #F38BA8;
       padding: 10px;
     }
+    .headerlink {
+      font-size: 26px;
+      position: relative;
+      top: -1px;
+      padding-bottom: 0px;
+      margin-bottom: 0px;
+    }
+    .headerlinkgroup {
+      font-size: 16px;
+      position: relative;
+      top: -35px;
+      padding-bottom: 0px;
+      margin-bottom: 0px;
+    }
     -->
     </style>
   </head>
   <body>
   <div style="height:700px;border: 3px solid #8caaee;background-color: #626880;">
   <header>
-    <h2 style="margin:0px;padding:0px;">Personal Sites/Basil's Garden/Index</h2>
+    <h2 style="font-size:36px;margin:0px;padding:0px;">Personal Sites/Basil's Garden/Index</h2>
     <br>
-    <a href="/">Home</a> • <a href="/projects">Project Gallery</a> • <a href="/fandoms">Fandoms</a> • <a href="/info">Site Info</a>
+    <p class="headerlinkgroup"><a class="headerlink" href="/">Home</a> • <a class="headerlink" href="/sysinf">System Info</a> • <a class="headerlink" href="/art">Art Gallery</a> • <a class="headerlink" href="/fandoms">Fandoms</a> • 
+    <a class="headerlink" href="/info">Site Info</a></p>
   </header>
     <main>
       <img src="./images/pfp.png" width=10% height=10% style="float:left;margin-left:1%;margin-right:1%;margin-top:7.5%">
